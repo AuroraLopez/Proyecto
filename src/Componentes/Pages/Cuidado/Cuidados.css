@@ -1,0 +1,44 @@
+#parr{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+h2.primer {
+    font-size: 20px;
+
+  }
+ img{
+  padding: 20px;
+ }
+  h2.segundo {
+    font-size: 20px;
+  }
+  
+  h2.tercero {
+    font-size: 20px;
+  }
+  
+  h2.cuarto {
+    font-size: 20px;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  p {
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
