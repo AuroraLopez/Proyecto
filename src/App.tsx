@@ -8,6 +8,7 @@ import { Login }  from './Componentes/Pages/Contactanos/Contactanos'
 import { Cuidados } from './Componentes/Pages/Cuidado/Cuidados';
 import { Razas } from './Componentes/Pages/Razas/razas';
 import { Backend } from './Componentes/Backend/rr';
+import { Alimentos } from './Componentes/Pages/Alimentos/Alimentos';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Inicio />}/>
         <Route path='/Razas' element={<Razas />}/>
         <Route path='/Cuidados' element={<Cuidados />}/>
+        <Route path='/Alimentos' element={<Alimentos />}/>
         <Route path='/Login' element={<Login />}/>
         <Route path='/rr' element={<Backend />}/>
       </Routes>

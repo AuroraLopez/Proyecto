@@ -14,6 +14,8 @@ import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 import InfoIcon from '@mui/icons-material/Info';
 import PetsIcon from '@mui/icons-material/Pets';
 import './Navbar.css'
+import LocalDiningIcon from '@mui/icons-material/LocalDining';
+
 
 export default function Navbar() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -49,7 +51,7 @@ export default function Navbar() {
         }}
       >
         <List
-          sx={{ width: '100%', maxWidth: 800, bgcolor: 'background.paper' }}
+          sx={{ width: '100%', maxWidth: 900, bgcolor: 'background.paper' }}
           component="nav"
           aria-labelledby="nested-list-subheader"
           subheader={
@@ -80,6 +82,14 @@ export default function Navbar() {
                 <InfoIcon />
               </ListItemIcon>
               <ListItemText primary="Cuidados" />
+            </ListItemButton>
+          </Button>
+          <Button component={Link} to="Alimentos">
+            <ListItemButton>
+              <ListItemIcon>
+               <LocalDiningIcon />
+              </ListItemIcon>
+              <ListItemText primary="Alimentos" />
             </ListItemButton>
           </Button>
           <Button component={Link} to="Login">

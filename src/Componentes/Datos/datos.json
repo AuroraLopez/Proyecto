@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Siames",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.CH9nYYnMVNTI51CZQHL87QHaE8&pid=Api&P=0&h=180",
+        "dueño": "Pepito",
+        "vacunas": "2",
+        "descripcion": "El gato siamés probablemente sea una de las razas de gatos más populares del mundo actual. El azul intenso de su mirada hace que nos quedemos embobados mirándolo y, si a eso le sumamos la combinación de colores en su pelaje, el resultado es un esbelto, elegante y adorable gato que nos roba el corazón." 
+    },
+    {
+        "name": "Negro",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.w0Fez-SHIcDZgSR3q6wtsQHaE8&pid=Api&P=0&h=180",
+        "dueño": "Juan",
+        "vacunas": "4",
+        "descripcion": "El gato negro es considerado un animal muy simbólico con interpretaciones muy ambiguas.1​ Mientras que en civilizaciones como la del Antiguo Egipto se los consideraba animales sagrados, ya que estaban relacionados con el culto a la diosa Bastet,2​ en la tradición hebrea y babilónica, los gatos se comparan a serpientes, arrolladas en un hogar. "
+    },
+    {
+        "name": "Romano",
+        "img": "https://tse3.mm.bing.net/th?id=OIP.zfiBeRMe5jpp7wSSWhmrEAHaFh&pid=Api&P=0&h=180",
+        "dueño": "Ainara",
+        "vacunas": "1",
+        "descripcion": "El gato común Europeo es conocido también como gato romano puesto que fue en esa época cuando se expandieron por toda Europa. Su nombre en latín es Felis Catus. Se cree que esta raza proviene del gato montés africano y del gato de la jungla aunque sus orígenes son muy inciertos. "
+    },
+    {
+        "name": "Persa",
+        "img": "https://tse2.mm.bing.net/th?id=OIP.IN1AtHJQEGmOnAWd8-YwgQHaFq&pid=Api&P=0&h=180",
+        "dueño": "Peter",
+        "vacunas": "3",
+        "descripcion": "Reconocemos fácilmente al gato persa por su cara ancha y aplanada junto al abundante pelaje, que puede ser de distintos colores. Fueron introducidos en Italia desde la antigua Persia (Irán) sobre el 1620 aunque se desconoce el auténtico origen.  "
+    },
+    {
+        "name": "Ragdoll",
+        "img": "https://www.elmueble.com/medio/2023/04/14/gato-de-raza-ragdoll_5c5827ec_230414185205_1000x1493.jpg",
+        "dueño": "Jose",
+        "vacunas": "4",
+        "descripcion": "El gato ragdoll surgió en el año 1960 en California, Estados Unidos, aunque no se reconoció oficialmente la raza hasta diez años después. El cruce se hizo mediante una gata tipo angora y un macho sagrado de Birmania, lo que dio lugar a un gatito peludo, redondo, fuerte y realmente adorable."
+    },
+    {
+        "name": "Somalí",
+        "img": "https://tse1.mm.bing.net/th?id=OIP.2QA-bfHUJO3qkxLgMHcrfwHaE8&pid=Api&P=0&h=180",
+        "dueño": "Pedro",
+        "vacunas": "1",
+        "descripcion": "No obstante, el somalí es mucho más que eso, ya que constituye una raza en sí misma, con muchas virtudes, tales como su carácter o su inteligencia, sin desestimar su porte elegante y señorial, además de ese pelaje tan bonito que le sirve como distintivo frente a otras razas similares. "
+    }
+    ]

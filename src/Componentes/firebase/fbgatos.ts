@@ -4,11 +4,11 @@ import { firebaseConfig } from "./firebaseconfig";
 import { ICategoria } from "../Interfaces/gatos";
 import { nanoid } from 'nanoid'
 import { deleteDoc } from "firebase/firestore";
-
+import { updateDoc } from "firebase/firestore";
+import datos from "../Datos/datos.json"
 
 export const app = initializeApp(firebaseConfig)
 export const db = getFirestore() 
-
 
 export const newCategoria = async (data: ICategoria) => {
     try{
@@ -44,3 +44,29 @@ export const getCategorias = async (): Promise<ICategoria[]> => {
       throw new Error("Error al eliminar la categoría");
     }
   };
+
+  export const modifyproduct = async (data: ICategoria) => {
+    try {
+      const addRef = doc(db, "Categorias");
+      const newData = { ...data };
+      await updateDoc(addRef, newData);
+      console.log("Modificado correctamente");
+    } catch (error) {
+      console.log(error);
+      throw new Error("Error al modificar la categoría");
+    }
+  };
+
+  export const cargarprod = async () => {
+    try {
+        console.log('carga de datos...');
+        datos.map(async (datos) => {
+            const codigo = nanoid(20);
+            const docRef = doc(db, "Categorias", codigo);
+            await setDoc(docRef, { codigo: codigo, ...datos });
+            window.location.reload();
+        });
+    } catch (error) {
+        console.log(error);
+    }
+};
